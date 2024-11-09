@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "SEEK Featured Ad Remover",
+    "version": "1.0",
+    "description": "Removes 'Featured' job adverts from SEEK job listings.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+      "https://www.seek.co.nz/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.seek.co.nz/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
