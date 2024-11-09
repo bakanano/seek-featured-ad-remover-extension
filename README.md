@@ -32,7 +32,7 @@ When browsing job listings on SEEK, some jobs are marked as "Featured" to boost 
    - [Violetmonkey for Chrome](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
    - [Violetmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
    - [Violetmonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
-   - [GitHub Releases] (https://github.com/violentmonkey/violentmonkey/releases)
+   - [GitHub Releases](https://github.com/violentmonkey/violentmonkey/releases)
 
 2. **Add the Userscript**:
    - Open Violetmonkey and click on the "+", select "New".

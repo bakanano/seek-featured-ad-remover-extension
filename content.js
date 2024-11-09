@@ -11,7 +11,6 @@
 (function () {
     'use strict';
   
-    // CSS to hide elements
     const style = document.createElement('style');
     style.innerHTML = `
       [data-automation='premiumAdBadge'] {
@@ -23,13 +22,10 @@
     `;
     document.head.appendChild(style);
   
-    // Function to actively remove featured ads
     function removeFeaturedAds() {
-      // Select all "Featured" badges
       const featuredBadges = document.querySelectorAll("[data-automation='premiumAdBadge']");
   
       featuredBadges.forEach(badge => {
-        // Find the closest parent container that represents the job listing
         const jobContainer = badge.closest("div._47fs8z0._1ekw8474z._1ekw8474x");
   
         if (jobContainer) {
@@ -39,10 +35,8 @@
       });
     }
   
-    // Initial run
     removeFeaturedAds();
   
-    // Re-run removal code every 2 seconds for dynamically loaded content
     setInterval(removeFeaturedAds, 2000);
   })();
   
